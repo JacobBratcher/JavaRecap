@@ -1,0 +1,26 @@
+Student - Name, age, address, courseName, fees
+
+Professor - Name, age, address, salary, experience
+
+// child class
+// inheriting attributes from parent class (Person class)
+Student class
+String courseName; 
+int fees; 
+Method - printStudent()
+
+// child class
+// inheriting attributes from parent class (Person class)
+Professor class 
+int salary; 
+int experience; 
+Method - printProfessor()
+
+// parent class
+// common code for student and class 
+// no need for common variables in each class 
+Person class 
+String name;
+int age;
+String address;
+Method - print()
